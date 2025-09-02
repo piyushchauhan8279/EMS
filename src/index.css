@@ -9,3 +9,12 @@ body {
 * {
   color: white;
 }
+
+
+#task-list::-webkit-scrollbar{
+  display: none;
+}
+
+.tasks-box::-webkit-scrollbar{
+  display: none;
+}

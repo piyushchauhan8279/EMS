@@ -1,11 +1,13 @@
-import './App.css'
+import "./App.css";
+import Login  from "./components/Auth/Login";
+import Employees from "./components/Dashboard/Employees";
 function App() {
-  
   return (
     <>
-      <h1>Hello World</h1>
+      {/* <Login></Login> */}
+      <Employees></Employees>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
