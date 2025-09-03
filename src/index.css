@@ -18,3 +18,7 @@ body {
 .tasks-box::-webkit-scrollbar{
   display: none;
 }
+
+#all-tasks::-webkit-scrollbar{
+  display: none;
+}
